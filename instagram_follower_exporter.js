@@ -38,7 +38,7 @@
             after = json.data.user.edge_followed_by.page_info.end_cursor;
             // Extract followers from the response
             followers = followers.concat(
-                json.data.user.edge_followed_by.edges.map(({ node }) => node.username)
+                json.data.user.edge_followed_by.edges.map(({ node }) => "https://www.instagram.com/"+node.username)
             );
             console.log(`Fetched ${followers.length} followers so far...`);
         }
