@@ -5,19 +5,20 @@ A JavaScript-based tool for exporting a list of Instagram followers to a text fi
 ⚠️ **Disclaimer**: This tool is for educational purposes only. Please ensure you comply with Instagram's Terms of Service and API usage guidelines. Excessive API requests may result in rate limiting or account restrictions.
 
 ## Features
-
-- Fetches complete list of followers for a specified Instagram account
-- Uses pagination to handle large follower lists
-- Exports results to a text file with one username per line
-- Provides progress feedback in the console
-
+- Export followers from any public Instagram account
+- Choose between two output formats:
+  - Username only (e.g., `username`)
+  - Full Instagram profile URL (e.g., `https://www.instagram.com/username`)
+- Progress tracking during export
+- Automatic file download
+- 
 ## Usage
-
 1. Open your browser's developer tools (F12 or Right Click -> Inspect)
 2. Navigate to the Console tab
 3. Copy and paste the script below
-4. Replace `"target_user"` with the target username
-5. Press Enter to run
+4. Type in the user
+5. Select the export format
+6. Press Enter to run
 
 ## How It Works
 
