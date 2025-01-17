@@ -11,7 +11,7 @@ A JavaScript-based tool for exporting a list of Instagram followers to a text fi
   - Full Instagram profile URL (e.g., `https://www.instagram.com/username`)
 - Progress tracking during export
 - Automatic file download
-- 
+  
 ## Usage
 1. Open your browser's developer tools (F12 or Right Click -> Inspect)
 2. Navigate to the Console tab
